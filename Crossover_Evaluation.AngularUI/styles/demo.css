@@ -1,0 +1,9 @@
+﻿/* Centrar el loader utilizado en index.html (loader.min.css) */
+.loader {
+    margin: 0 auto; 
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    z-index: 1000;
+    visibility: hidden;
+}

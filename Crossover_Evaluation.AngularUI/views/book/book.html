@@ -1,0 +1,28 @@
+﻿<div class="page page-dashboard" ng-controller="BookCtrl">
+    <ol class="breadcrumb breadcrumb-small">
+        <li class="active"><a href="#/books">Go to book list</a></li>
+    </ol>
+    <div class="page-wrap">
+        <div class="row">
+            <!-- dashboard header -->
+            <div class="col-md-12">
+                <div class="dash-head clearfix mt15 mb20">
+                    <div class="left">
+                        <h4 class="mb5 text-light">BOOK: {{oBook.title}}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- dashboard header -->
+            <div class="col-md-12">
+                <div class="panel panel-default panel-hovered panel-stacked mb20">
+                    <div class="panel-heading">PUBLISHER: {{oBook.publisher}} | AUTHOR(S): {{oBook.authors}}</div>
+                    <div class="panel-body">
+                        {{oBook.description}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

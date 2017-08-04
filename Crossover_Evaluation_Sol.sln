@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossover_Evaluation.Bussines", "Crossover_Evaluation.Bussines\Crossover_Evaluation.Bussines.csproj", "{A08F7C3D-C3AB-4685-8739-4F866E401988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossover_Evaluation.Bussines.Test", "Crossover_Evaluation.Bussines.Test\Crossover_Evaluation.Bussines.Test.csproj", "{8706E9FD-8C68-4EEF-A8F2-9E98FC84C9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossover_Evaluation.AngularUI", "Crossover_Evaluation.AngularUI\Crossover_Evaluation.AngularUI.csproj", "{E1DFEC93-BF2E-4850-B575-1A68DC9A47D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crossover_Evaluation.WebApi", "Crossover_Evaluation.WebApi\Crossover_Evaluation.WebApi.csproj", "{8ECBE56E-5A25-4D44-A00A-C07E3A308A8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A08F7C3D-C3AB-4685-8739-4F866E401988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08F7C3D-C3AB-4685-8739-4F866E401988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08F7C3D-C3AB-4685-8739-4F866E401988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08F7C3D-C3AB-4685-8739-4F866E401988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8706E9FD-8C68-4EEF-A8F2-9E98FC84C9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8706E9FD-8C68-4EEF-A8F2-9E98FC84C9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8706E9FD-8C68-4EEF-A8F2-9E98FC84C9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8706E9FD-8C68-4EEF-A8F2-9E98FC84C9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1DFEC93-BF2E-4850-B575-1A68DC9A47D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DFEC93-BF2E-4850-B575-1A68DC9A47D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DFEC93-BF2E-4850-B575-1A68DC9A47D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DFEC93-BF2E-4850-B575-1A68DC9A47D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECBE56E-5A25-4D44-A00A-C07E3A308A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECBE56E-5A25-4D44-A00A-C07E3A308A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECBE56E-5A25-4D44-A00A-C07E3A308A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECBE56E-5A25-4D44-A00A-C07E3A308A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

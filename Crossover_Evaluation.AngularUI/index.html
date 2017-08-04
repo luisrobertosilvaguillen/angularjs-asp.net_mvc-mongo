@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Crossover Demo">
+    <meta name="author" content="Ing. Luis R. Silva G.">
+	<!-- <base href="/"> -->
+
+	<title>Crossover Demo</title>
+
+	<!-- Icons -->
+	<link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+	
+	<!-- Css/Less Stylesheets -->
+	<!-- build:css styles/angular-material.min.css -->
+	<link rel="stylesheet" href="styles/vendors/angular-material.min.css">
+	<!-- /build -->
+	<!-- build:css styles/bootstrap.min.css -->
+	<link rel="stylesheet" href="styles/vendors/bootstrap.min.css">
+	<!-- /build -->
+	<!-- build:css styles/main.min.css -->
+	<!--<link rel="stylesheet/less" href="styles/main.less">-->
+	<!-- /build -->
+	
+	<link rel="stylesheet" href="styles/main.min.css"> 
+	 
+    <link rel="stylesheet" href="styles/loaders.min.css" />
+    <link rel="stylesheet" href="styles/demo.css" />
+
+ 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
+
+	<!-- Match Media polyfill for IE9 -->
+	<!--[if IE 9]> <script src="scripts/ie/matchMedia.js"></script>  <![endif]--> 
+</head>
+<body ng-app="app" 
+	id="app" custom-page
+	class="app off-canvas {{themeActive}}" ng-class="{'nav-expand': navFull, 'body-full': bodyFull}"
+	ng-controller="AppCtrl">
+
+
+	<header class="site-head" ng-controller="HeadCtrl"
+		id="site-head" ng-class="{'fixedHeader': fixedHeader}"
+		ng-include=" 'views/header.html' ">
+		<!-- linked header (static) view -->
+	</header>
+
+    <!-- Loader animation loader.min.css -->
+    <div id="loader" data-loader="ball-auto" class="loader"></div>
+
+	<!-- main-container -->
+	<div class="main-container clearfix" ng-class="{'nav-expand': navFull, 'nav-horizontal': navHorizontal}">
+		<aside class="nav-wrap" ng-class="{'nav-expand': navFull, 'nav-offcanvas': navOffCanvas}"
+			id="site-nav" custom-scrollbar
+			ng-include=" 'views/nav.html' ">
+		
+		</aside>
+
+		<!-- content-here -->
+		<div ng-class="{'nav-expand': navFull, 'fixedHeader': fixedHeader}"
+			class="content-container" 
+			id="content"
+			ng-view>
+		</div>
+
+	</div> <!-- #end main-container -->
+
+	
+
+
+    <!-- notifications -->
+    <div class="toast toast-bottomRight">
+        <alert ng-repeat="toast in toasts" type="{{toast.type}}" close="closeAlert($index)" class="toast-{{toast.anim}}">
+            <div ng-bind-html="toast.msg"></div>
+        </alert>
+    </div>
+    <!-- #notifications -->
+	
+	
+	<!-- Dev only -->
+	<!-- build:remove -->
+	<script src="scripts/dev/less.min.js"></script>	
+	<!-- /build -->
+
+	<!-- build:js scripts/vendors.js -->
+	<!-- Vendors -->
+	<script src="scripts/vendors/jquery.min.js"></script> <!-- load before angular -->
+    <script src="scripts/vendors/angular.min.js"></script>
+	<!-- /build -->
+
+	<!-- build:js scripts/plugins.js -->
+	<!-- Plugins -->
+	<script src="scripts/plugins/angular-route.min.js"></script>
+	<script src="scripts/plugins/angular-animate.min.js"></script>
+	<script src="scripts/plugins/angular-aria.min.js"></script>
+	<script src="scripts/plugins/angular-sanitize.min.js"></script>
+	<script src="scripts/plugins/ui-bootstrap-tpls.min.js"></script>
+	<script src="scripts/plugins/angular-material.min.js"></script>
+	<script src="scripts/plugins/ocLazyLoad.min.js"></script>
+	<script src="scripts/plugins/loading-bar.min.js"></script>
+	<script src="scripts/plugins/angular-fullscreen.js"></script>
+	<script src="scripts/plugins/perfect-scrollbar.min.js"></script>
+    <script src="scripts/plugins/ngStorage.min.js"></script>
+	<!-- /build -->
+
+	
+	<!-- build:js scripts/app.js -->
+	<!-- Custom scripts -->
+    <!-- Herramientas globales en app.utils.js -->
+    <script src="scripts/shared/app.utils.js?0c878055f7a015b2b881f1a7af36b7b7bb710161"></script>
+    <script src="scripts/shared/app.services.js?78f06509beec58eec32a14c71cddbc6fea9804a1"></script>
+	<script src="scripts/shared/app.ctrls.js?0c878055f7a015b2b881f1a7af36b7b7bb710161"></script>
+	<script src="scripts/shared/app.directives.js"></script>
+    <script src="scripts/shared/app.nav.ctrls.js?17b6c8782d73d06e9223bea179eaba3548ed40cb"></script>
+    <script src="scripts/auth/app.login.ctrl.js?0c878055f7a015b2b881f1a7af36b7b7bb710161"></script>
+    <script src="scripts/demand/app.demand.ctrls.js"></script>
+    <script src="scripts/auth/app.signup.ctrl.js"></script>
+	<script src="scripts/ui/app.ui.ctrls.js"></script>
+	<script src="scripts/ui/app.ui.directives.js"></script>
+    <script src="scripts/book/app.book.ctrls.js"></script>
+    <!-- Plugin de AngularJS para guardar archivos descargados -->
+    <script src="scripts/plugins/angular-file-saver.bundle.min.js"></script>
+
+    <!-- Leave app.js at the END -->
+    <script src="scripts/app.js?fd4e6e3216fbedf2cd894a12224d68efc6678c24"></script>
+	<!-- /build -->
+
+</body>
+</html>

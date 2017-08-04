@@ -1,0 +1,16 @@
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\Crossover_Evaluation.Bussines.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\Crossover_Evaluation.Bussines.pdb
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\AspNet.Identity.MongoDB.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\MongoDB.Bson.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\MongoDB.Driver.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\MongoDB.Bson.xml
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\MongoDB.Driver.xml
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\obj\Debug\Crossover_Evaluation.Bussines.dll
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\obj\Debug\Crossover_Evaluation.Bussines.pdb
+C:\Users\ROBERTO\Documents\MEGAsync\Crossover_Evaluation_Sol\Crossover_Evaluation.Bussines\obj\Debug\Crossover_Evaluation.Bussines.csprojResolveAssemblyReference.cache

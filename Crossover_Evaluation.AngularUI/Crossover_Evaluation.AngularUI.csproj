@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1DFEC93-BF2E-4850-B575-1A68DC9A47D4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crossover_Evaluation.AngularUI</RootNamespace>
+    <AssemblyName>Crossover_Evaluation.AngularUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\font-awesome\.bower.json" />
+    <Content Include="fonts\font-awesome\.npmignore" />
+    <Content Include="fonts\font-awesome\bower.json" />
+    <Content Include="fonts\font-awesome\css\font-awesome.css.map" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="fonts\font-awesome\less\animated.less" />
+    <Content Include="fonts\font-awesome\less\bordered-pulled.less" />
+    <Content Include="fonts\font-awesome\less\core.less" />
+    <Content Include="fonts\font-awesome\less\fixed-width.less" />
+    <Content Include="fonts\font-awesome\less\font-awesome.less" />
+    <Content Include="fonts\font-awesome\less\icons.less" />
+    <Content Include="fonts\font-awesome\less\larger.less" />
+    <Content Include="fonts\font-awesome\less\list.less" />
+    <Content Include="fonts\font-awesome\less\mixins.less" />
+    <Content Include="fonts\font-awesome\less\path.less" />
+    <Content Include="fonts\font-awesome\less\rotated-flipped.less" />
+    <Content Include="fonts\font-awesome\less\stacked.less" />
+    <Content Include="fonts\font-awesome\less\variables.less" />
+    <Content Include="fonts\font-awesome\scss\font-awesome.scss" />
+    <Content Include="fonts\font-awesome\scss\_animated.scss" />
+    <Content Include="fonts\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="fonts\font-awesome\scss\_core.scss" />
+    <Content Include="fonts\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="fonts\font-awesome\scss\_icons.scss" />
+    <Content Include="fonts\font-awesome\scss\_larger.scss" />
+    <Content Include="fonts\font-awesome\scss\_list.scss" />
+    <Content Include="fonts\font-awesome\scss\_mixins.scss" />
+    <Content Include="fonts\font-awesome\scss\_path.scss" />
+    <Content Include="fonts\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="fonts\font-awesome\scss\_stacked.scss" />
+    <Content Include="fonts\font-awesome\scss\_variables.scss" />
+    <Content Include="fonts\ionicons\.bower.json" />
+    <Content Include="fonts\ionicons\bower.json" />
+    <Content Include="fonts\ionicons\component.json" />
+    <Content Include="fonts\ionicons\composer.json" />
+    <Content Include="fonts\ionicons\fonts\ionicons.eot" />
+    <Content Include="fonts\ionicons\fonts\ionicons.ttf" />
+    <Content Include="fonts\ionicons\fonts\ionicons.woff" />
+    <Content Include="fonts\ionicons\less\ionicons.less" />
+    <Content Include="fonts\ionicons\less\_ionicons-font.less" />
+    <Content Include="fonts\ionicons\less\_ionicons-icons.less" />
+    <Content Include="fonts\ionicons\less\_ionicons-variables.less" />
+    <Content Include="fonts\ionicons\LICENSE" />
+    <Content Include="fonts\ionicons\readme.md" />
+    <Content Include="fonts\ionicons\scss\ionicons.scss" />
+    <Content Include="fonts\ionicons\scss\_ionicons-font.scss" />
+    <Content Include="fonts\ionicons\scss\_ionicons-icons.scss" />
+    <Content Include="fonts\ionicons\scss\_ionicons-variables.scss" />
+    <Content Include="scripts\auth\app.signup.ctrl.js" />
+    <Content Include="scripts\demand\app.demand.ctrls.js" />
+    <Content Include="scripts\dev\less.min.js" />
+    <Content Include="scripts\plugins\angular-ui-router.min.js" />
+    <Content Include="styles\bootstrap\.csscomb.json" />
+    <Content Include="styles\bootstrap\.csslintrc" />
+    <Content Include="styles\bootstrap\alerts.less" />
+    <Content Include="styles\bootstrap\badges.less" />
+    <Content Include="styles\bootstrap\bootstrap.less" />
+    <Content Include="styles\bootstrap\breadcrumbs.less" />
+    <Content Include="styles\bootstrap\button-groups.less" />
+    <Content Include="styles\bootstrap\buttons.less" />
+    <Content Include="styles\bootstrap\carousel.less" />
+    <Content Include="styles\bootstrap\close.less" />
+    <Content Include="styles\bootstrap\code.less" />
+    <Content Include="styles\bootstrap\component-animations.less" />
+    <Content Include="styles\bootstrap\dropdowns.less" />
+    <Content Include="styles\bootstrap\forms.less" />
+    <Content Include="styles\bootstrap\glyphicons.less" />
+    <Content Include="styles\bootstrap\grid.less" />
+    <Content Include="styles\bootstrap\input-groups.less" />
+    <Content Include="styles\bootstrap\jumbotron.less" />
+    <Content Include="styles\bootstrap\labels.less" />
+    <Content Include="styles\bootstrap\list-group.less" />
+    <Content Include="styles\bootstrap\media.less" />
+    <Content Include="styles\bootstrap\mixins.less" />
+    <Content Include="styles\bootstrap\mixins\alerts.less" />
+    <Content Include="styles\bootstrap\mixins\background-variant.less" />
+    <Content Include="styles\bootstrap\mixins\border-radius.less" />
+    <Content Include="styles\bootstrap\mixins\buttons.less" />
+    <Content Include="styles\bootstrap\mixins\center-block.less" />
+    <Content Include="styles\bootstrap\mixins\clearfix.less" />
+    <Content Include="styles\bootstrap\mixins\forms.less" />
+    <Content Include="styles\bootstrap\mixins\gradients.less" />
+    <Content Include="styles\bootstrap\mixins\grid-framework.less" />
+    <Content Include="styles\bootstrap\mixins\grid.less" />
+    <Content Include="styles\bootstrap\mixins\hide-text.less" />
+    <Content Include="styles\bootstrap\mixins\image.less" />
+    <Content Include="styles\bootstrap\mixins\labels.less" />
+    <Content Include="styles\bootstrap\mixins\list-group.less" />
+    <Content Include="styles\bootstrap\mixins\nav-divider.less" />
+    <Content Include="styles\bootstrap\mixins\nav-vertical-align.less" />
+    <Content Include="styles\bootstrap\mixins\opacity.less" />
+    <Content Include="styles\bootstrap\mixins\pagination.less" />
+    <Content Include="styles\bootstrap\mixins\panels.less" />
+    <Content Include="styles\bootstrap\mixins\progress-bar.less" />
+    <Content Include="styles\bootstrap\mixins\reset-filter.less" />
+    <Content Include="styles\bootstrap\mixins\resize.less" />
+    <Content Include="styles\bootstrap\mixins\responsive-visibility.less" />
+    <Content Include="styles\bootstrap\mixins\size.less" />
+    <Content Include="styles\bootstrap\mixins\tab-focus.less" />
+    <Content Include="styles\bootstrap\mixins\table-row.less" />
+    <Content Include="styles\bootstrap\mixins\text-emphasis.less" />
+    <Content Include="styles\bootstrap\mixins\text-overflow.less" />
+    <Content Include="styles\bootstrap\mixins\vendor-prefixes.less" />
+    <Content Include="styles\bootstrap\modals.less" />
+    <Content Include="styles\bootstrap\navbar.less" />
+    <Content Include="styles\bootstrap\navs.less" />
+    <Content Include="styles\bootstrap\normalize.less" />
+    <Content Include="styles\bootstrap\pager.less" />
+    <Content Include="styles\bootstrap\pagination.less" />
+    <Content Include="styles\bootstrap\panels.less" />
+    <Content Include="styles\bootstrap\popovers.less" />
+    <Content Include="styles\bootstrap\print.less" />
+    <Content Include="styles\bootstrap\progress-bars.less" />
+    <Content Include="styles\bootstrap\responsive-embed.less" />
+    <Content Include="styles\bootstrap\responsive-utilities.less" />
+    <Content Include="styles\bootstrap\scaffolding.less" />
+    <Content Include="styles\bootstrap\tables.less" />
+    <Content Include="styles\bootstrap\theme.less" />
+    <Content Include="styles\bootstrap\thumbnails.less" />
+    <Content Include="styles\bootstrap\tooltip.less" />
+    <Content Include="styles\bootstrap\type.less" />
+    <Content Include="styles\bootstrap\utilities.less" />
+    <Content Include="styles\bootstrap\wells.less" />
+    <Content Include="styles\lazyload\less\bootstrap-slider.less" />
+    <Content Include="styles\lazyload\less\colorpicker.less" />
+    <Content Include="styles\lazyload\less\fullcalendar.less" />
+    <Content Include="styles\lazyload\less\ng-tags-input.less" />
+    <Content Include="styles\lazyload\less\select.less" />
+    <Content Include="styles\main.less" />
+    <Content Include="styles\pages\auth.less" />
+    <Content Include="styles\pages\dashboard.less" />
+    <Content Include="styles\pages\err.less" />
+    <Content Include="styles\pages\invoice.less" />
+    <Content Include="styles\pages\timeline.less" />
+    <Content Include="styles\pages\widgets.less" />
+    <Content Include="styles\plugins\loading-bar.less" />
+    <Content Include="styles\plugins\perfect-scrollbar.less" />
+    <Content Include="styles\sections\header.less" />
+    <Content Include="styles\sections\layout.less" />
+    <Content Include="styles\sections\material-override.less" />
+    <Content Include="styles\sections\nav-horizontal.less" />
+    <Content Include="styles\sections\nav.less" />
+    <Content Include="styles\sections\off-canvas.less" />
+    <Content Include="styles\sections\page.less" />
+    <Content Include="styles\sections\settings.less" />
+    <Content Include="styles\sections\themes.less" />
+    <Content Include="styles\ui\alerts.less" />
+    <Content Include="styles\ui\app-calendar.less" />
+    <Content Include="styles\ui\badge.less" />
+    <Content Include="styles\ui\breadcrumbs.less" />
+    <Content Include="styles\ui\buttons.less" />
+    <Content Include="styles\ui\charts.less" />
+    <Content Include="styles\ui\checkboxes.less" />
+    <Content Include="styles\ui\code.less" />
+    <Content Include="styles\ui\datepicker.less" />
+    <Content Include="styles\ui\demo.less" />
+    <Content Include="styles\ui\dropdowns.less" />
+    <Content Include="styles\ui\forms.less" />
+    <Content Include="styles\ui\input-groups.less" />
+    <Content Include="styles\ui\labels.less" />
+    <Content Include="styles\ui\list-group.less" />
+    <Content Include="styles\ui\media.less" />
+    <Content Include="styles\ui\mixins.less" />
+    <Content Include="styles\ui\modals.less" />
+    <Content Include="styles\ui\navs.less" />
+    <Content Include="styles\ui\notifications.less" />
+    <Content Include="styles\ui\pagination.less" />
+    <Content Include="styles\ui\panels.less" />
+    <Content Include="styles\ui\progress.less" />
+    <Content Include="styles\ui\scaffolding.less" />
+    <Content Include="styles\ui\tables.less" />
+    <Content Include="styles\ui\toggles.less" />
+    <Content Include="styles\ui\tooltip.less" />
+    <Content Include="styles\ui\type.less" />
+    <Content Include="styles\ui\ui.less" />
+    <Content Include="styles\ui\utilities.less" />
+    <Content Include="styles\variables.less" />
+    <Content Include="scripts\book\app.book.ctrls.js" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\font-awesome\.gitignore" />
+    <Content Include="fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\ionicons\cheatsheet.html" />
+    <Content Include="fonts\ionicons\css\ionicons.css" />
+    <Content Include="fonts\ionicons\css\ionicons.min.css" />
+    <Content Include="fonts\ionicons\fonts\ionicons.svg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\nav-admin-bg.PNG" />
+    <Content Include="images\signin.jpg" />
+    <Content Include="images\user.png" />
+    <Content Include="images\user_white.png" />
+    <Content Include="index.html" />
+    <Content Include="scripts\app.js" />
+    <Content Include="scripts\auth\app.login.ctrl.js" />
+    <Content Include="scripts\ie\matchMedia.js" />
+    <Content Include="scripts\lazyload\abn_tree_directive.js" />
+    <Content Include="scripts\lazyload\angular.easypiechart.min.js" />
+    <Content Include="scripts\lazyload\bootstrap-colorpicker-module.min.js" />
+    <Content Include="scripts\lazyload\bootstrap-slider.min.js" />
+    <Content Include="scripts\lazyload\c3.js" />
+    <Content Include="scripts\lazyload\c3.min.js" />
+    <Content Include="scripts\lazyload\calendar.js" />
+    <Content Include="scripts\lazyload\controllers\c3ChartCtrl.js" />
+    <Content Include="scripts\lazyload\controllers\calendarCtrl.js" />
+    <Content Include="scripts\lazyload\controllers\imageCropCtrl.js" />
+    <Content Include="scripts\lazyload\controllers\materialCtrl.js" />
+    <Content Include="scripts\lazyload\controllers\selectCtrl.js" />
+    <Content Include="scripts\lazyload\controllers\tagsInputCtrl.js" />
+    <Content Include="scripts\lazyload\controllers\treeviewCtrl.js" />
+    <Content Include="scripts\lazyload\d3.min.js" />
+    <Content Include="scripts\lazyload\directives\bootstrap-slider.directive.js" />
+    <Content Include="scripts\lazyload\directives\c3.directive.js" />
+    <Content Include="scripts\lazyload\directives\sparkline.directive.js" />
+    <Content Include="scripts\lazyload\fullcalendar.min.js" />
+    <Content Include="scripts\lazyload\jquery.sparkline.min.js" />
+    <Content Include="scripts\lazyload\moment.min.js" />
+    <Content Include="scripts\lazyload\ng-flow-standalone.min.js" />
+    <Content Include="scripts\lazyload\ng-img-crop.js" />
+    <Content Include="scripts\lazyload\ng-map.min.js" />
+    <Content Include="scripts\lazyload\ng-tags-input.min.js" />
+    <Content Include="scripts\lazyload\ngMask.min.js" />
+    <Content Include="scripts\lazyload\pathseg.js" />
+    <Content Include="scripts\lazyload\select.min.js" />
+    <Content Include="scripts\lazyload\textAngular-rangy.min.js" />
+    <Content Include="scripts\lazyload\textAngular.min.js" />
+    <Content Include="scripts\lazyload\textAngularSetup.js" />
+    <Content Include="scripts\plugins\angular-animate.min.js" />
+    <Content Include="scripts\plugins\angular-aria.min.js" />
+    <Content Include="scripts\plugins\angular-file-saver.bundle.min.js" />
+    <Content Include="scripts\plugins\angular-fullscreen.js" />
+    <Content Include="scripts\plugins\angular-material.min.js" />
+    <Content Include="scripts\plugins\angular-sanitize.min.js" />
+    <Content Include="scripts\plugins\fastclick.js" />
+    <Content Include="scripts\plugins\loading-bar.min.js" />
+    <Content Include="scripts\plugins\ngStorage.min.js" />
+    <Content Include="scripts\plugins\ocLazyLoad.min.js" />
+    <Content Include="scripts\plugins\perfect-scrollbar.min.js" />
+    <Content Include="scripts\plugins\ui-bootstrap-tpls.min.js" />
+    <Content Include="scripts\shared\app.ctrls.js" />
+    <Content Include="scripts\shared\app.directives.js" />
+    <Content Include="scripts\shared\app.nav.ctrls.js" />
+    <Content Include="scripts\shared\app.services.js" />
+    <Content Include="scripts\shared\app.utils.js" />
+    <Content Include="scripts\ui\app.ui.ctrls.js" />
+    <Content Include="scripts\ui\app.ui.directives.js" />
+    <Content Include="scripts\vendors\angular.min.js" />
+    <Content Include="scripts\vendors\jquery.min.js" />
+    <Content Include="styles\demo.css" />
+    <Content Include="styles\lazyload\abn_tree.css" />
+    <Content Include="styles\lazyload\bootstrap-slider.css" />
+    <Content Include="styles\lazyload\c3.css" />
+    <Content Include="styles\lazyload\colorpicker.css" />
+    <Content Include="styles\lazyload\fullcalendar.css" />
+    <Content Include="styles\lazyload\ng-img-crop.css" />
+    <Content Include="styles\lazyload\ng-tags-input.css" />
+    <Content Include="styles\lazyload\select.css" />
+    <Content Include="styles\lazyload\textAngular.css" />
+    <Content Include="styles\loaders.min.css" />
+    <Content Include="styles\main.min.css" />
+    <Content Include="styles\vendors\angular-material.min.css" />
+    <Content Include="styles\vendors\bootstrap.min.css" />
+    <Content Include="views\book\book.html" />
+    <Content Include="views\book\list.html" />
+    <Content Include="views\demand\demand.html" />
+    <Content Include="views\header.html" />
+    <Content Include="views\nav.html" />
+    <Content Include="views\pages\404.html" />
+    <Content Include="views\pages\signin.html" />
+    <Content Include="views\pages\signup.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57603</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57603/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

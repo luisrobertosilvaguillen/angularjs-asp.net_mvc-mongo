@@ -1,0 +1,38 @@
+<div class="page page-auth" ng-controller="SignupCtrl" id="signup-controller-div" style="background-color: rgba(255,255,255,0.0)">
+    <div class="auth-container" style="background-color: rgba(213,213,203,0.75);">
+
+        <div class="form-head mb20">
+            <div style="text-align: center;">
+                <i class="ion ion-disc" style="font-size: x-large;"></i>
+                <span class="site-logo h2 mb5 mt5 text-center text-uppercase text-bold">Create Account</span>
+                <p class="small">Already have an account. <a href="#/pages/signin">Sign In Now</a></p>
+            </div>
+        </div>
+        <div class="form-container">
+            <form class="form-horizontal" action="javascript:;">
+                <md-input-container>
+                    <label>UserName</label>
+                    <input type="text"  ng-model="signupData.username">
+                </md-input-container>
+                <md-input-container>
+                    <label>Email Id</label>
+                    <input type="email"  ng-model="signupData.email">
+                </md-input-container>
+                <md-input-container>
+                    <label>Password</label>
+                    <input type="password"  ng-model="signupData.password">
+                </md-input-container>
+                <md-input-container>
+                    <label>Retype Password</label>
+                    <input type="password"  ng-model="signupData.confirmpassword">
+                </md-input-container>
+
+                <div class="clearfix">
+                    <button type="button" ng-click="Register();" class="btn btn-primary right">Sign Up</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div> <!-- #end signin-container -->
+</div>
